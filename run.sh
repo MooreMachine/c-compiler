@@ -6,9 +6,11 @@ then
     exit 1
 fi
 
+VERSION=$(cat README.md | grep "Version" | awk '{print $2}')
+
 cd $1
 
 docker run --rm -it \
     -v $(pwd):/home \
-    ccompiler:0.1.0
+    ccompiler:$VERSION
 
