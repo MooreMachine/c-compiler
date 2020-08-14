@@ -8,9 +8,9 @@ Build the image with `./build.sh` and test the container with `./run.sh sample-f
 
 ### About
 
-Version: 0.2.0
+Version: 0.3.0
 
-Image size: 384 MB
+Image size: 247 MB
 
 Build context size: 3.072 kb
 
