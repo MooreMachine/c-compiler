@@ -12,5 +12,5 @@ cd $1
 
 docker run --rm -it \
     -v $(pwd):/home \
+    -w '/home' \
     ccompiler:$VERSION
-
