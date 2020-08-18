@@ -30,4 +30,4 @@ docker exec \
 
 echo "Stopping container..."
 
-docker container stop $CONTAINER_ID 
+docker container stop -t 0 $CONTAINER_ID 
