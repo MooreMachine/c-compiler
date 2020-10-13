@@ -10,7 +10,7 @@ Use `./run_interactive.sh <PROJECT-DIRECTORY>` to mount your C files so that you
 
 ### About
 
-Version: 1.7.0
+Version: 1.7.1
 
 Image size: 296MB
 

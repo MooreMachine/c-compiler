@@ -23,7 +23,7 @@ then
     VERSION=$NEW_VERSION
 fi
 
-docker build --tag ccompiler:$VERSION .
+docker build --tag mooremachine/ccompiler:$VERSION .
 
 if [ $? -ne 0 ]
 then

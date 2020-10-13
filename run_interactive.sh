@@ -16,4 +16,4 @@ docker run \
     -t \
     -v $(pwd):/home \
     -w '/home' \
-    ccompiler:$VERSION
+    mooremachine/ccompiler:$VERSION

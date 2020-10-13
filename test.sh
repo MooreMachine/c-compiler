@@ -19,7 +19,7 @@ CONTAINER_ID=$(docker run \
     -t \
     -d \
     -v $(pwd):/home \
-    ccompiler:$VERSION)
+    mooremachine/ccompiler:$VERSION)
 
 echo "Executing command..."
 
@@ -30,4 +30,4 @@ docker exec \
 
 echo "Stopping container..."
 
-docker container stop -t 0 $CONTAINER_ID 
+docker container stop -t 0 $CONTAINER_ID
